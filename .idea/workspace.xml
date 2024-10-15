@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5803ec59-a365-45f6-b12b-7e34b0464236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementoConcretoIF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Trapezio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisitorCalcularArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisitorCalcularPerimetro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisitorDesenhar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisitorIF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisitorMaximizar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CirculoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RetanguloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrapezioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrianguloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VisitorCalcularAreaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VisitorCalcularPerimetroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map-Lab7" beforeDir="false" afterPath="$PROJECT_DIR$/Map-Lab7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Map-Lab7/Circulo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Map-Lab7/ElementoConcretoIF.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Map-Lab7/Main.java" beforeDir="false" />
@@ -32,69 +24,122 @@
       <change beforePath="$PROJECT_DIR$/Map-Lab7/VisitorDesenhar.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Map-Lab7/VisitorIF.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Map-Lab7/VisitorMaximizar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "joaogaabriell"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;joaogaabriell&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rodrigoliraf/Map-Lab7.git",
-    "accountId": "faef9f88-5c51-410c-845c-f46cefe96025"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rodrigoliraf/Map-Lab7.git&quot;,
+    &quot;accountId&quot;: &quot;faef9f88-5c51-410c-845c-f46cefe96025&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nTWV7VC04FeMfvZdM3AULaOADY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jgjgj\IdeaProjects\Map_Lab07\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.TrianguloTest">
+    <configuration name="RetanguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Map_Lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RetanguloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrapezioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Map_Lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrapezioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrianguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Map_Lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrianguloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorCalcularAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Map_Lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VisitorCalcularAreaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorCalcularPerimetroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Map_Lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VisitorCalcularPerimetroTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TrianguloTest" />
+        <item itemvalue="JUnit.VisitorCalcularPerimetroTest" />
+        <item itemvalue="JUnit.VisitorCalcularAreaTest" />
+        <item itemvalue="JUnit.TrapezioTest" />
+        <item itemvalue="JUnit.RetanguloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728997570363</updated>
-      <workItem from="1728997571540" duration="621000" />
+      <workItem from="1728997571540" duration="1776000" />
     </task>
     <servers />
   </component>
