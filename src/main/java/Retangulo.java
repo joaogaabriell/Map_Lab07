@@ -24,11 +24,6 @@ public class Retangulo implements ElementoConcretoIF {
 
     @Override
     public void aceitaVisita(VisitorIF v) {
-        try {
-            v.visitaRetangulo(this);
-        } catch (Exception e) {
-            System.err.println("Erro ao aceitar visita no Retangulo: " + e.getMessage());
-            throw new RuntimeException("Falha ao aceitar visita no Retangulo", e);
-        }
+        v.visitaRetangulo(this);
     }
 }

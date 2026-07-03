@@ -33,11 +33,6 @@ public class Trapezio implements ElementoConcretoIF {
 
     @Override
     public void aceitaVisita(VisitorIF v) {
-        try {
-            v.visitaTrapezio(this);
-        } catch (Exception e) {
-            System.err.println("Erro ao aceitar visita no Trapezio: " + e.getMessage());
-            throw new RuntimeException("Falha ao aceitar visita no Trapezio", e);
-        }
+        v.visitaTrapezio(this);
     }
 }
