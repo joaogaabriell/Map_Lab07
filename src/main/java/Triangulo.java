@@ -24,11 +24,6 @@ public class Triangulo implements ElementoConcretoIF {
 
     @Override
     public void aceitaVisita(VisitorIF v) {
-        try {
-            v.visitaTriangulo(this);
-        } catch (Exception e) {
-            System.err.println("Erro ao aceitar visita no Triangulo: " + e.getMessage());
-            throw new RuntimeException("Falha ao aceitar visita no Triangulo", e);
-        }
+        v.visitaTriangulo(this);
     }
 }

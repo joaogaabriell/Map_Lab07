@@ -15,11 +15,6 @@ public class Circulo implements ElementoConcretoIF {
 
     @Override
     public void aceitaVisita(VisitorIF v) {
-        try {
-            v.visitaCirculo(this);
-        } catch (Exception e) {
-            System.err.println("Erro ao aceitar visita no Circulo: " + e.getMessage());
-            throw new RuntimeException("Falha ao aceitar visita no Circulo", e);
-        }
+        v.visitaCirculo(this);
     }
 }
